@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:game_stream_app/widgets/bottom_navbar.dart';
 import 'package:game_stream_app/widgets/category_card.dart';
 import 'package:game_stream_app/widgets/game_card.dart';
 import 'package:game_stream_app/widgets/stream_card.dart';
@@ -9,6 +10,17 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: backgroundColor,
+      bottomNavigationBar: BottomNavbar(),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {},
+        backgroundColor: pinkColor,
+        child: Icon(
+          Icons.search,
+          color: whiteColor,
+          size: 32,
+        ),
+      ),
+      floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
       body: SafeArea(
         child: ListView(
           children: [
@@ -150,7 +162,10 @@ class HomePage extends StatelessWidget {
                         GameCard('game3.png'),
                       ],
                     ),
-                  )
+                  ),
+                  SizedBox(
+                    height: 35,
+                  ),
                 ],
               ),
             ),
