@@ -9,6 +9,7 @@ Color backgroundUserOne = Color(0XFF162044);
 Color backgroundUserTwo = Color(0XFFC4AFFF);
 Color backgroundUserThree = Color(0XFFAFE2FF);
 Color cardColor = Color(0XFF0E1839);
+Color liveColor = Color(0XFFEA5C7A);
 
 TextStyle boldTextStyle = GoogleFonts.poppins(
   fontWeight: FontWeight.w700,
