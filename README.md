@@ -1,6 +1,6 @@
 # game_stream_app
 
-A new Task Manager Flutter project.
+A new Game Stream Flutter project.
 
 design by BWA.
 
