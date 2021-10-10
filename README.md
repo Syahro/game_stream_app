@@ -10,6 +10,16 @@ This project is a starting point for a Flutter application. I Just implement tha
 
 Big Thank's to BWA for the Design that can i use for my practice.
 
+## Development Setup
+
+Clone the repository and run the following commands:
+```
+flutter pub get
+flutter run
+```
+
+## Screenshot
+
 Here is some UI View.
 
-<img width="285" alt="cover" src="https://user-images.githubusercontent.com/42954205/136500233-99faae86-18c5-4c67-aaf2-75b30e0a40c2.png">
+<img src="assets/screenshot/stream1.png" height="470em" /><img src="assets/screenshot/stream1.png" height="470em" />
