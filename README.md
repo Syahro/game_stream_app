@@ -22,4 +22,4 @@ flutter run
 
 Here is some UI View.
 
-<img src="assets/screenshot/stream1.png" height="470em" /><img src="assets/screenshot/stream1.png" height="470em" />
+<img src="assets/screenshot/stream1.png" height="470em" />    <img src="assets/screenshot/stream2.png" height="470em" />
